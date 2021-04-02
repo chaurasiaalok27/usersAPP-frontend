@@ -1,0 +1,13 @@
+svg {
+    height: 18px;
+    width: 18px;;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    &:focus {
+        outline: unset;
+    }
+}

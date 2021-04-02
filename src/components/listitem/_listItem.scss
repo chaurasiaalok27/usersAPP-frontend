@@ -1,0 +1,49 @@
+.item {
+    background-color: $hr_gray3;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+
+    .name {
+        font-size: x-large;
+        font-weight: 700;
+        color: $hr_white;
+        display: flex;
+        justify-content: space-between;
+        .delete-btn {
+            color: $hr_white;
+        }
+    }
+
+    .ability {
+        font-size: smaller;
+        color: $hr_white;
+    }
+
+    .task {
+        font-size: large;
+        height: 76%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .edit-box {
+            width: 80%;
+            height: 80%;
+            border-radius: 16px;
+            outline: none;
+        }
+        .edit-btn {
+            color: $hr_accent;
+        }
+        .save-btn {
+            margin-top: 8px;
+            background-color: $hr_accent;
+            width: 100%;
+            height: 26px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
